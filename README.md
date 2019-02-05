@@ -2,9 +2,9 @@
 
 Why the heck is git so confusing?!?
 
-Git is a skill just like any other thing you've learned so far in your coding career. In fact, learning a version control tool like git is one of the most essential tools in your developer's toolbox. Just know that it'll make more sense and come much easier with some practice.
+Git is a skill just like any other thing you've learned so far in your coding career. In fact, learning a version control software like git is one of the most essential items in your developer's toolbox. I know it's a huge headache at first, but just know that it'll make more sense and come much easier with some practice.
 
-It's highly likely you will be asked questions about git during your coding interviews, so it pays off to immerse yourself in this technology during your group project.
+It's highly likely you will be asked questions about git during your coding interviews, so it pays off to immerse yourself in this technology.
 
 Let's go over a few git commands you should be using a lot!
 
@@ -92,6 +92,6 @@ git blame
 
 * A tool for figuring out who made certain changes to the code. Please use responsibly 😉
 
-One more quick note for you guys - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused. Rule of thumb though - if it tells you to do `rm -rf ~` ALWAYS DO IT.
+One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused. Rule of thumb though - if it tells you to do `rm -rf ~` ALWAYS DO IT.
 
 PS - that was a joke about the rimraff thing. Please don't think it was serious. Please.
