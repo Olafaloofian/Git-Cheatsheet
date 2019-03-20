@@ -1,4 +1,4 @@
-### Git - The struggle, and the triumph
+### Git - The struggle, and the triumph.
 
 Why the heck is git so confusing?!?
 
