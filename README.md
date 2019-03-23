@@ -2,9 +2,9 @@
 
 Why the heck is git so confusing?!?
 
-Git is a skill just like any other thing you've learned so far in your coding career. In fact, learning a version control software like git is one of the most essential items in your developer's toolbox. I know it's a huge headache at first, but just know that it'll make more sense and come much easier with some practice.
+Git is a skill just like any other thing you've learned so far in your coding career. In fact, learning a version control software like git is one of the most essential items in your developer's toolbox. It's a huge headache at first, but just know that it'll make more sense and come much easier with some practice.
 
-It's highly likely you will be asked questions about git during your coding interviews, so it pays off to immerse yourself in this technology.
+It is highly likely you will be asked questions about git during a coding interview, so it pays off to immerse yourself in this technology.
 
 Let's go over a few git commands you should be using a lot!
 
@@ -13,13 +13,13 @@ git add .
 git commit -m 'Commit message here'
 ```
 
-* You guys already know what these do. You can stage and commit your code changes to your local machine using these commands.
+* You may already know what these do. You can stage and commit your code changes to your local machine using these commands.
 
 ```
 git push
 ```
 
-* This pushes your latest commit of the branch you are currently on to Github. Pushing means you (think you) have the latest version of the code. If you don't have the latest version of the code, git will tell you to git pull. After pulling and resolving any issues, you should be able to push just fine.
+* This pushes your latest commit of the branch you are currently on to Github. Pushing means you believe to have the latest version of the code. If you don't have the latest version of the code, git will tell you to git pull. After pulling and resolving any issues, you should be able to push just fine.
 
 * In the chance that your current branch doesn't already exist in the remote repository on Github, git will tell you that you should set an upstream origin. Use the command it provides to do so.
 
@@ -92,6 +92,6 @@ git blame
 
 * A tool for figuring out who made certain changes to the code. Please use responsibly 😉
 
-One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused. Rule of thumb though - if it tells you to do `rm -rf ~` ALWAYS DO IT.
+One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused. Rule of thumb - if it tells you to do `rm -rf ~` ALWAYS DO IT.
 
 PS - that was a joke about the rimraff thing. Please don't think it was serious. Please.
