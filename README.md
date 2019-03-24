@@ -19,7 +19,7 @@ git commit -m 'Commit message here'
 git push
 ```
 
-* This pushes your latest commit of the branch you are currently on to Github. Pushing means you believe to have the latest version of the code. If you don't have the latest version of the code, git will tell you to git pull. After pulling and resolving any issues, you should be able to push just fine.
+* This pushes your latest commit of the branch you are currently on to Github (or other online repository). Pushing means you believe to have the latest version of the code. If you don't have the latest version of the code, git will tell you to `git pull`. After pulling and resolving any issues, you should be able to push just fine.
 
 * In the chance that your current branch doesn't already exist in the remote repository on Github, git will tell you that you should set an upstream origin. Use the command it provides to do so.
 
@@ -27,7 +27,7 @@ git push
 git pull
 ```
 
-* Pulling means you are requesting the latest code from the remote repository on Github. If no one else has pushed since you last pulled, git will tell you that you are 'Already up to date.'
+* Pulling means you are requesting the latest code from the remote repository on Github. If no one else has pushed since you last pulled, git will tell you that you are `Already up to date.`
 
 * Pulling often results in merge conflicts. Make sure to carefully resolve the conflicts and consult with your team if necessary.
 
@@ -49,7 +49,7 @@ git merge --abort
 git checkout <target branch>
 ```
 
-* This is how you switch to another branch. You can switch to any branch by using its name, or its commit code.
+* This is how you switch to another branch. You can switch to any branch by using its name, or revert to previous changes by pasting the first bit of a commit code in.
 
 ```
 git checkout -b <new branch name>
@@ -72,7 +72,7 @@ git branch -a
 ```
 git log
 ```
-* Will display a list of commits in the current branch. Use the ^ terminal button to make this easier! Make note of the commit codes - you can use these to checkout to previous changes that you've committed in case you broke your code or are just unhappy with the current state of things.
+* Will display a list of commits in the current branch. If you are using VS Code, click the ^ terminal button to make this easier to read! Make note of the commit codes - you can use these to checkout to previous changes that you've committed in case you broke your code or are just unhappy with the current state of things.
 
 ```
 git status
@@ -94,4 +94,4 @@ git blame
 
 One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused. Rule of thumb - if it tells you to do `rm -rf ~` ALWAYS DO IT.
 
-PS - that was a joke about the rimraff thing. Please don't think it was serious. Please.
+PS - that was a joke about the rimraff thing. Please don't think it was serious... please.
