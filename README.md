@@ -87,6 +87,12 @@ git remote -v
 * If you are ever confused about where the remote code for your project is located, use this command to list them out (it's possible to have more than one remote).
 
 ```
+git remote update
+```
+
+* This command refreshes information (such as branches) from the remote repositories. Use it if you don't see a remote branch on your local machine.
+
+```
 git blame
 ```
 
