@@ -98,6 +98,4 @@ git blame
 
 * A tool for figuring out who made certain changes to the code. Please use responsibly 😉
 
-One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused. Rule of thumb - if it tells you to do `rm -rf ~` ALWAYS DO IT.
-
-PS - that was a joke about the rimraff thing. Please don't think it was serious... please.
+One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused.
