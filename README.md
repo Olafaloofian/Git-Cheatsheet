@@ -6,7 +6,7 @@ Git is a skill just like any other thing you've learned so far in your coding ca
 
 It is highly likely you will be asked questions about git during a coding interview, so it pays off to immerse yourself in this technology.
 
-Let's go over a few git commands you should be using a lot!
+Let's go over a few git commands you should be using a lot! Each command will be followed by a short description, and if there are arguments to enter they will be represented as `<argument>`.
 
 ```
 git add .
@@ -68,6 +68,12 @@ git branch -a
 ```
 
 * Lists all branches, including remote Github branches, which will be designated as 'remote'. Helpful for checking out to a team member's remote branch to see their changes before they push.
+
+```
+git switch <remote branch>
+```
+
+* If you see a remote branch that you want on your machine, this command will allow you to create a local version of that branch.
 
 ```
 git log
