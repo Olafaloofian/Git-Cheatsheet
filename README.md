@@ -17,6 +17,8 @@ git commit -m 'Commit message here'
 
 * You may already know what these do. You can stage and commit your code changes to your local machine using these commands.
 
+---
+
 ```
 git push
 ```
@@ -24,6 +26,8 @@ git push
 * This pushes your latest commit of the branch you are currently on to Github (or other online repository). Pushing means you believe to have the latest version of the code. If you don't have the latest version of the code, git will tell you to `git pull`. After pulling and resolving any issues, you should be able to push just fine.
 
 * In the chance that your current branch doesn't already exist in the remote repository on Github, git will tell you that you should set an upstream origin. Use the command it provides to do so.
+
+---
 
 ```
 git pull
@@ -33,6 +37,8 @@ git pull
 
 * Pulling often results in merge conflicts. Make sure to carefully resolve the conflicts and consult with your team if necessary.
 
+---
+
 ```
 git merge <target branch>
 ```
@@ -41,11 +47,15 @@ git merge <target branch>
 
 * `git merge` can result in merge conflicts just like pulling. Keep an eye out for conflict heads! `>>>>>>>>> HEAD`
 
+---
+
 ```
 git merge --abort
 ```
 
 * Aborting a merge is possible and worth doing if you find out you've made some serious mistakes when attempting to resolve conflicts.
+
+---
 
 ```
 git checkout <target branch>
@@ -53,11 +63,15 @@ git checkout <target branch>
 
 * This is how you switch to another branch. You can switch to any branch by using its name, or revert to previous changes by pasting the first bit of a commit code in.
 
+---
+
 ```
 git checkout -b <new branch name>
 ```
 
 * This will create a new branch with the name you specify
+
+---
 
 ```
 git branch
@@ -65,11 +79,15 @@ git branch
 
 * Will show all local branches, with your current working branch highlighted in some way
 
+---
+
 ```
 git branch -a
 ```
 
 * Lists all branches, including remote Github branches, which will be designated as 'remote'. Helpful for checking out to a team member's remote branch to see their changes before they push.
+
+---
 
 ```
 git switch <remote branch>
@@ -77,10 +95,14 @@ git switch <remote branch>
 
 * If you see a remote branch that you want on your machine, this command will allow you to create a local version of that branch.
 
+---
+
 ```
 git log
 ```
 * Will display a list of commits in the current branch. If you are using VS Code, click the ^ terminal button to make this easier to read! Make note of the commit codes - you can use these to checkout to previous changes that you've committed in case you broke your code or are just unhappy with the current state of things.
+
+---
 
 ```
 git status
@@ -88,11 +110,15 @@ git status
 
 * Shows the status of the changes you have made to the current branch. This is useful for figuring out what you need to add and commit.
 
+---
+
 ```
 git remote -v
 ```
 
 * If you are ever confused about where the remote code for your project is located, use this command to list them out (it's possible to have more than one remote).
+
+---
 
 ```
 git remote update
@@ -100,10 +126,14 @@ git remote update
 
 * This command refreshes information (such as branches) from the remote repositories. Use it if you don't see a remote branch on your local machine.
 
+---
+
 ```
 git blame
 ```
 
 * A tool for figuring out who made certain changes to the code. Please use responsibly 😉
+
+---
 
 One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. Nine times out of ten git will give you a command to run, and you should run it. If you are super uncertain about the command, look it up and see what it does, then come ask us for help if you are still confused.
