@@ -8,6 +8,8 @@ It is highly likely you will be asked questions about git during a coding interv
 
 Let's go over a few git commands you should be using a lot! Each command will be followed by a short description, and if there are arguments to enter they will be represented as `<argument>`.
 
+---
+
 ```
 git add .
 git commit -m 'Commit message here'
