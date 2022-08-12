@@ -129,6 +129,14 @@ git remote update
 ---
 
 ```
+git rm --cached <file name>
+```
+
+* If you've pushed sensitive files that need to be removed from the repository (for example, a .env), this command will do the trick
+
+---
+
+```
 git blame
 ```
 
