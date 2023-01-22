@@ -1,6 +1,6 @@
 ### Git - The struggle, and the triumph.
 
-Why the heck is git so confusing?!?
+Why is git so confusing sometimes?!?
 
 Git is a skill just like any other thing you've learned so far in your coding career. In fact, learning a version control software like git is one of the most essential items in your developer's toolbox. It's a huge headache at first, but just know that it'll make more sense and come much easier with some practice.
 
@@ -133,6 +133,18 @@ git rm --cached <file name>
 ```
 
 * If you've pushed sensitive files that need to be removed from the repository (for example, a .env), this command will do the trick
+
+```
+git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch <file name>" HEAD
+```
+
+* Use this command to completely remove a file from git's history (most often combined with the previous command). You may get some warnings, that's okay as long as you know which file you are targeting.
+
+```
+git push --force
+```
+
+* Sometimes required for pushing more complex changes, such as those caused by the filter-branch command above.
 
 ---
 
