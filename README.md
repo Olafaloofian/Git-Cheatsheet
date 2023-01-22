@@ -134,11 +134,15 @@ git rm --cached <file name>
 
 * If you've pushed sensitive files that need to be removed from the repository (for example, a .env), this command will do the trick
 
+---
+
 ```
 git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch <file name>" HEAD
 ```
 
 * Use this command to completely remove a file from git's history (most often combined with the previous command). You may get some warnings, that's okay as long as you know which file you are targeting.
+
+---
 
 ```
 git push --force
